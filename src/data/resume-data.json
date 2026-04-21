@@ -1,0 +1,51 @@
+{
+  "summary": "Senior Software Engineer with 5+ years building scalable, maintainable web applications. I specialize in modern frontend architectures with React, Next.js, and TypeScript, but I'm equally comfortable diving into backend systems. At Atlântico, I moved beyond writing code—I built systems that scale, mentored teams, and cut onboarding time from months to weeks. Test coverage, performance, and accessibility aren't checkbox items for me; they're foundations for quality software.",
+  "skills": [
+    "React.js",
+    "TypeScript",
+    "Node.js",
+    "Português (Native or Bilingual)",
+    "Inglês (Full Professional)"
+  ],
+  "experiences": [
+    {
+      "id": "exp-1",
+      "company": "Atlântico",
+      "role": "Software Engineer",
+      "period": "Aug 2021 - Mar 2026",
+      "description": "",
+      "accomplishments": [
+        "Architected and built scalable frontend systems with React and Next.js, emphasizing code quality, maintainability, and developer experience.",
+        "Designed and shipped component libraries that became the foundation of our Design System, enabling teams to move faster while maintaining consistency.",
+        "Achieved 85% test coverage across critical paths, significantly reducing production incidents and increasing deployment confidence.",
+        "Revamped technical planning processes for epics, reducing rework by 40% through clearer requirements and early design reviews.",
+        "Mentored junior engineers—cut onboarding time from 2 months to 3 weeks through documentation, pair programming, and thoughtful code reviews."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "company": "Federal University of Ceara",
+      "role": "Junior Frontend Developer",
+      "period": "Mar 2021 - Jul 2021",
+      "description": "",
+      "accomplishments": [
+        "Built interactive educational features for the 'Luz do Saber' project, making pedagogical content more engaging for elementary students.",
+        "Delivered responsive, accessible interfaces using Vue.js and TypeScript across multiple devices.",
+        "Implemented component-driven development patterns to keep the codebase clean and sustainable as the project scaled."
+      ]
+    },
+    {
+      "id": "exp-3",
+      "company": "OSF Global Services",
+      "role": "Junior Frontend Developer",
+      "period": "Aug 2019 - May 2020",
+      "description": "",
+      "accomplishments": [
+        "Developed responsive user interfaces with React and Redux for enterprise-grade applications.",
+        "Integrated RESTful APIs to power scalable, distributed systems serving diverse use cases.",
+        "Wrote unit tests with Jest and Enzyme, building a culture of testing and reducing regression bugs.",
+        "Collaborated across distributed teams in Agile sprints to deliver on aggressive timelines."
+      ]
+    }
+  ]
+}
