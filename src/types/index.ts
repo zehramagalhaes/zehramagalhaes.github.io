@@ -16,6 +16,7 @@ export interface Project {
   imageUrl: string;
   details: string;
   screenshots: string[];
+  liveUrl?: string;
 }
 
 export interface Skill {

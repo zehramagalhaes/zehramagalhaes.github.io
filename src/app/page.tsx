@@ -30,12 +30,6 @@ async function getPortfolioData() {
     }
   }
 
-  // Fallback if no dynamic data found
-  if (experiences.length === 0) {
-    const { experiences: mockExperiences } = await import('@/lib/data');
-    experiences = mockExperiences;
-  }
-
   return { experiences, projects, summary, skills };
 }
 

@@ -1,11 +1,11 @@
 import { NextResponse } from 'next/server';
-import { experiences as mockExperiences } from '@/lib/data';
 import fs from 'fs';
 import path from 'path';
+import { Experience } from '@/types';
 
 export async function GET() {
   const dynamicDataPath = path.join(process.cwd(), 'src/data/resume-data.json');
-  let experiences = mockExperiences;
+  let experiences: Experience[] = [];
 
   if (fs.existsSync(dynamicDataPath)) {
     try {

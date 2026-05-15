@@ -21,7 +21,7 @@ export const Projects = ({ projects }: ProjectsProps) => {
       <div className="mx-auto max-w-6xl">
         <SectionHeading
           title="Projects"
-          subtitle="Built with Passion & Logic"
+          subtitle="Built with Passion"
           color="darcula-yellow"
         />
 
@@ -207,14 +207,16 @@ export const Projects = ({ projects }: ProjectsProps) => {
               </div>
 
               <div className="bg-darcula-bg border-darcula-text/10 flex justify-end border-t p-6">
-                <button
-                  className="bg-darcula-orange hover:bg-darcula-orange/90 flex items-center gap-2 rounded-lg px-6 py-2 text-white transition-colors"
-                  onClick={() =>
-                    window.alert('Link to live demo would go here')
-                  }
-                >
-                  Live Demo <ExternalLink size={16} />
-                </button>
+                {selectedProject.liveUrl && (
+                  <a
+                    href={selectedProject.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-darcula-orange hover:bg-darcula-orange/90 flex items-center gap-2 rounded-lg px-6 py-2 text-white transition-colors"
+                  >
+                    Live Demo <ExternalLink size={16} />
+                  </a>
+                )}
               </div>
             </motion.div>
           </motion.div>
